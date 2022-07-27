@@ -1,7 +1,7 @@
 const reverseString = require('./reverseString');
 
 describe('reverseString()', () => {
-    it('return reversed string', () => {
+    it('returns reversed string', () => {
         expect(reverseString('hello')).toBe('olleh');
     });
 });
