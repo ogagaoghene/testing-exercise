@@ -1,6 +1,6 @@
 const Calculator = require('./calculator');
 
-describe('calculator class with basic arithmetic operatiosn', () => {
+describe('calculator class with basic arithmetic operations', () => {
     it('returns addition of 3 and 2 to equal 5', () => {
         let calc = new Calculator();
         expect(calc.add(3,2)).toBe(5);
